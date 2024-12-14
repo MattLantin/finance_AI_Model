@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "library-poetry"
+version = "0.1.0"
+description = ""
+authors = ["Matthew Lantin <mlantin1093@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gymnasium = "^1.0.0"
+stable-baselines3 = "^2.4.0"
+matplotlib = "^3.10.0"
+pandas = "^2.2.3"
+yfinance = "^0.2.50"
+numpy = "^2.2.0"
+gym = "^0.26.2"
+shimmy = ">=2.0"
+tabulate = "^0.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
